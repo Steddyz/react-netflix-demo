@@ -1,0 +1,40 @@
+@import "../../../../variables";
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  width: 100%;
+
+  > button {
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 1rem;
+
+    border-bottom: 4px solid transparent;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    background-color: transparent;
+
+    opacity: 0.8;
+    transition: all 0.2s ease-in;
+
+    &:active {
+      border-color: $red;
+      opacity: 1;
+    }
+
+    &:hover {
+      border-color: $red;
+      opacity: 1;
+    }
+  }
+}

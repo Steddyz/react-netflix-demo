@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 40px;
+
+  > div:first-child {
+    display: flex;
+    align-items: center;
+    > a {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .notification {
+    position: relative;
+    margin-right: 1.5rem;
+
+    > i {
+      font-size: 28px;
+
+      color: #fff;
+    }
+
+    > span {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+
+      background-color: #c62e21;
+      border: 1px solid #0f1011;
+    }
+  }
+
+  .profile-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 35px;
+      width: 35px;
+
+      margin-right: 0.3rem;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    > i {
+      color: #fff;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+}

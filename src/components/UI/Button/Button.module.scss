@@ -1,0 +1,22 @@
+@import "../../../../variables";
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  color: $gray;
+  border: 1px solid #ffffffc0;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-right: 1rem;
+  width: 150px;
+
+  background-color: transparent;
+  outline: none;
+
+  > i {
+    font-size: 24px;
+    margin-right: 0.5rem;
+  }
+}
