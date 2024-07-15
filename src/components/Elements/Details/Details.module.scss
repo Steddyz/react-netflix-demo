@@ -1,0 +1,26 @@
+@import "../../../../variables";
+
+.wrapper {
+  flex-direction: column;
+  display: flex;
+
+  .title__details {
+    z-index: 1;
+    display: flex;
+    color: #fff;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descriptoin__details {
+    z-index: 1;
+    color: #fff;
+    opacity: 0.65;
+  }
+
+  .logo__details {
+    display: flex;
+    justify-content: center;
+  }
+}

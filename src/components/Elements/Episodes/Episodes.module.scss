@@ -1,0 +1,23 @@
+.episodes__wrapper__top {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.episodes__wrapper__bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.episodes__image {
+  margin: 15px;
+  width: 300px;
+  height: 250px;
+}
+
+.episodes__description {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  z-index: 10;
+}

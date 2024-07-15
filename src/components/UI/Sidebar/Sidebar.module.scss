@@ -1,11 +1,16 @@
 @import "../../../../variables";
 
 .sidebar {
+  display: flex;
   > button {
     background-color: transparent;
     border: none;
     color: $gray;
     font-size: 30px;
+  }
+
+  i {
+    margin-bottom: 30rem;
   }
 
   ul {
